@@ -14,10 +14,12 @@ usuarios = {
 
 Confirmation = False
 
+
 print("Bienvenido al sistema de administracion de usuarios de Fio!!")
 
 
 def agregar_usuarios():
+    global Confirmation
     nombre = input("Ingrese su nombre: ")
     for n in usuarios["nombres"]:
         if nombre == n:
