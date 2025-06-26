@@ -83,7 +83,7 @@ match option:
         eliminar_usuarios()
 
     case 4:
-        print("4")
+        print("Gracias por su preferencia !!")
     
     case _:
         print("Debe seleccionar una de las opciones anteriores")
